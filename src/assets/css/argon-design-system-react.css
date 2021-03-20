@@ -40,7 +40,7 @@
   --primary: #5e72e4;
   --secondary: #f4f5f7;
   --success: #2dce89;
-  --info: #11cdef;
+  --info: #38b7ce;
   --warning: #fb6340;
   --danger: #f5365c;
   --light: #adb5bd;
@@ -12014,28 +12014,28 @@ a.btn-icon-only {
     .show > .btn-slack.dropdown-toggle:focus {
       box-shadow: none, 0 0 0 0 rgba(58, 175, 133, 0.5); }
 
-.btn-dribbble {
+.btn-linkedin {
   color: #fff;
-  background-color: #ea4c89;
-  border-color: #ea4c89;
+  background-color:  #0e76a8;
+  border-color:  #0e76a8;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
-  .btn-dribbble:hover {
+  .btn-linkedin:hover {
     color: #fff;
-    background-color: #ea4c89;
-    border-color: #ea4c89; }
-  .btn-dribbble:focus, .btn-dribbble.focus {
+    background-color:  #0e76a8;
+    border-color:  #0e76a8; }
+  .btn-linkedin:focus, .btn-linkedin.focus {
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 0 rgba(234, 76, 137, 0.5); }
-  .btn-dribbble.disabled, .btn-dribbble:disabled {
+  .btn-linkedin.disabled, .btn-linkedin:disabled {
     color: #fff;
-    background-color: #ea4c89;
-    border-color: #ea4c89; }
-  .btn-dribbble:not(:disabled):not(.disabled):active, .btn-dribbble:not(:disabled):not(.disabled).active,
-  .show > .btn-dribbble.dropdown-toggle {
+    background-color:  #0e76a8;
+    border-color:  #0e76a8; }
+  .btn-linkedin:not(:disabled):not(.disabled):active, .btn-linkedin:not(:disabled):not(.disabled).active,
+  .show > .btn-linkedin.dropdown-toggle {
     color: #fff;
     background-color: #e51e6b;
-    border-color: #ea4c89; }
-    .btn-dribbble:not(:disabled):not(.disabled):active:focus, .btn-dribbble:not(:disabled):not(.disabled).active:focus,
-    .show > .btn-dribbble.dropdown-toggle:focus {
+    border-color:  #0e76a8; }
+    .btn-linkedin:not(:disabled):not(.disabled):active:focus, .btn-linkedin:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-linkedin.dropdown-toggle:focus {
       box-shadow: none, 0 0 0 0 rgba(234, 76, 137, 0.5); }
 
 .btn-github {

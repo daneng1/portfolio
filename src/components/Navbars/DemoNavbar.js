@@ -94,10 +94,10 @@ class DemoNavbar extends React.Component {
                   <Row>
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
-                        <img
+                        {/* <img
                           alt="..."
                           src={argonReact}
-                        />
+                        /> */}
                       </Link>
                     </Col>
                     <Col className="collapse-close" xs="6">

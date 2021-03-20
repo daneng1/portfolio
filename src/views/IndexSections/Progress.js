@@ -16,6 +16,7 @@
 
 */
 import React from "react";
+import Dan from 'assets/img/myImages/Dan_Engel_2020.jpg';
 
 // reactstrap components
 import { Progress, Col } from "reactstrap";
@@ -25,31 +26,67 @@ class ProgressSection extends React.Component {
     return (
       <>
         <Col lg="5">
-          <h3 className="h4 text-success font-weight-bold mb-4">
-            Progress bars
-          </h3>
+         <div>
+          <h3 className="h2 text-success font-weight-bold mb-4">About</h3>
+            <img
+              alt="..."
+              className="img-fluid"
+              src={Dan}
+              style={{ width: "200px" }}
+              />
+            <h3 className="h4 text-default font-weight-bold mb-4">Who IS this guy?</h3>  
+            <p> I'm a Full-Stack Developer in Seattle and I have a serious passion for finding simple solutions to complex problems.</p>
+            <p> I have a background in commmercial photography which has helped me develop an eye for layout and design.</p>
+            <p className="mb-6"> I hope to ulitize my experience working in Marketing teams within large organizations to build beautiful and functional user-facing software solutions.</p>
+          </div>
+        </Col>
+        <Col lg="5">
+        
           <div className="progress-wrapper">
             <div className="progress-info">
               <div className="progress-label">
-                <span>Task completed</span>
+                <span><h4>JavaScript</h4></span>
               </div>
               <div className="progress-percentage">
-                <span>40%</span>
+                <span>80%</span>
               </div>
             </div>
-            <Progress max="100" value="25" color="default" />
+            <Progress max="100" value="80" color="info" />
           </div>
           <div className="progress-wrapper">
             <div className="progress-info">
               <div className="progress-label">
-                <span>Task completed</span>
+                <span><h4>HTML</h4></span>
+              </div>
+              <div className="progress-percentage">
+                <span>70%</span>
+              </div>
+            </div>
+            <Progress max="100" value="70" color="warning"/>
+          </div>
+          <div className="progress-wrapper">
+            <div className="progress-info">
+              <div className="progress-label">
+                <span><h4>CSS</h4></span>
               </div>
               <div className="progress-percentage">
                 <span>60%</span>
               </div>
             </div>
-            <Progress max="100" value="60" />
+            <Progress max="100" value="60" color="success"/>
           </div>
+          <div className="progress-wrapper mb-2">
+            <div className="progress-info">
+              <div className="progress-label">
+                <span><h4>React</h4></span>
+              </div>
+              <div className="progress-percentage">
+                <span>30%</span>
+              </div>
+            </div>
+            <Progress max="100" value="30" color="danger" />
+          </div>
+       
         </Col>
       </>
     );

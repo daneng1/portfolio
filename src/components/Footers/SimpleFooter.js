@@ -34,8 +34,8 @@ class SimpleFooter extends React.Component {
     return (
       <>
         <footer className=" footer">
-          <Container>
-            <Row className=" row-grid align-items-center mb-5">
+          <Container className="mt-2">
+            <Row className=" row-grid align-items-center mt-2 mb-5">
               <Col lg="6">
                 <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.

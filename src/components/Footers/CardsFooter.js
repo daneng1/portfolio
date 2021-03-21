@@ -78,7 +78,7 @@ class CardsFooter extends React.Component {
                   </Card>
                 </Button>
               </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
+              <Col className="mb-8 mb-lg-0" md="6">
                 <Button
                   href="https://daneng1.github.io/regurgitate/"
                   target="_blank">

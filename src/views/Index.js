@@ -26,6 +26,7 @@ import CardsFooter from "components/Footers/CardsFooter.js";
 // index page sections
 import Hero from "./IndexSections/Hero.js";
 import Navbars from "./IndexSections/Navbars.js";
+import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import Progress from "./IndexSections/Progress.js";
 import Typography from "./IndexSections/Typography.js";
 import Modals from "./IndexSections/Modals.js";
@@ -41,19 +42,19 @@ class Index extends React.Component {
   render() {
     return (
       <>
-        <Navbars />
-        <main ref="main">
-          <Hero />
-          <section className="section section-components">
-            <Container>
-              <Row className="row-grid justify-content-between align-items-center mt-lg">
-                <Progress />  
-              </Row>  
-            </Container>
-            <CardsFooter />
-          </section>
-        </main>
-      <SimpleFooter />  
+        <DemoNavbar />
+          <main ref="main">
+            <Hero />
+            <section className="section section-components">
+              <Container>
+                <Row className="row-grid justify-content-between align-items-center mt-lg">
+                  <Progress />  
+                </Row>  
+              </Container>
+              <CardsFooter />
+            </section>
+          </main>
+        <SimpleFooter />  
       </>
     );
   }

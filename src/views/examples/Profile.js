@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import Dan from "assets/img/myImages/Dan_Engel_2020.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -36,17 +36,20 @@ class Profile extends React.Component {
       <>
         <DemoNavbar />
         <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0">
-            {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+          <section className="bg-success section-profile-cover section-shaped my-0">
+            <div className="shape bg-success hape-style-1 shape-default alpha-4">
             </div>
+            <Container className="py-lg-md d-flex">
+                <div className="col px-0">
+                  <Row>
+                    <Col  lg="6">
+                      <h1 className="display-3 mt-9 text-white">
+                        About Dan{" "}
+                      </h1>
+                    </Col>
+                  </Row>
+                </div>
+              </Container>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
               <svg
@@ -59,7 +62,7 @@ class Profile extends React.Component {
               >
                 <polygon
                   className="fill-white"
-                  points="2560 0 2560 100 0 100"
+                  points="1280 0 2560 100 0 100"
                 />
               </svg>
             </div>
@@ -71,11 +74,12 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
+                        
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={profile}
+                            src={Dan}
                           />
                         </a>
                       </div>
@@ -88,7 +92,7 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
+                          href="https://www.linkedin.com/in/danengel-seattle/"
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
@@ -124,31 +128,27 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
+                      Dan Engel{" "}
                       <span className="font-weight-light">, 27</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Seattle, WA
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Full-Stack Software Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Code Fellows
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                         I've been in the commercial photography industry for several years and I have made an exciting shift into software development. My experience in creating content in large organizations has prepared me to move into a tech role where I can build beautiful and functional customer facing tools. I love being part of a supportive team where challenges are met with optimism and enthusiam.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
